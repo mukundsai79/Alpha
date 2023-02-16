@@ -1,0 +1,5 @@
+Minimum viable Product
+•	Create a GUI using Jframes
+•	Creat a Jpanel Class for displaying the images.
+•	GameDisplay Class for loading sprite sheet image to extract a grid of 32x32
+• Generating Randomly an array of sprite indices to draw the sprites at respective postions on screen using paint component method.
