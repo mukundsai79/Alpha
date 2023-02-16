@@ -1,2 +1,5 @@
 Create GUI Interface:
 Creating Game window and initializing game display object to display the game.
+
+Create Jpanel Class:
+The class should load a sprite image from resource file and generate randomly an array of sprite indices on screen.
