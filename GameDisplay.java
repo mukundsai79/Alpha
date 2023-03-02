@@ -6,7 +6,6 @@ import javax.swing.JPanel;
 
 import inputs.KeyboardListener;
 import inputs.MyMouseListener;
-
 public class GameDisplay extends JPanel {
     private static final Dimension PANEL_SIZE = new Dimension(640, 740);
 

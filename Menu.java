@@ -118,8 +118,7 @@ public class Menu extends GameScene implements SceneMethods {
 	public void mouseReleased(int x, int y) {
 		resetButtons();
 	}
-
-	public void resetButtons() {
+    public void resetButtons() {
 		bPlaying.resetBooleans();
 		bSettings.resetBooleans();
 		bQuit.resetBooleans();

@@ -1,5 +1,4 @@
 package helperMethods;
-
 public class LevelBuild {
 
 	public static int[][] getLevelData() {

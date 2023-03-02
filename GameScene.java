@@ -1,5 +1,4 @@
 package scenes;
-
 import main.Game;
 
 public class GameScene {
