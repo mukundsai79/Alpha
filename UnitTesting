@@ -1,0 +1,249 @@
+package test.easycodeforall.changeit; 
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import org.apache.log4j.Logger;
+import static org.junit.jupiter.api.Assertions.fail;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
+public class GameTest {
+  
+	private Logger log = Logger.getLogger(this.getClass());
+    @BeforeAll
+    static void initAll() {
+    }
+    @BeforeEach
+    void init() {
+    }
+ 
+  @Test  
+	@DisplayName("create Default Level")
+    public void createDefaultLevel(){  
+		try {
+			log.info("Starting execution of createDefaultLevel");
+  
+  
+ Game game  =new Game(); 
+game.createDefaultLevel();
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofcreateDefaultLevel-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Settings")
+    public void getSettings(){  
+		try {
+			log.info("Starting execution of getSettings");
+Settings expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+Settings actualValue=game.getSettings();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Editor")
+    public void getEditor(){  
+		try {
+			log.info("Starting execution of getEditor");
+Editing expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+Editing actualValue=game.getEditor();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Tile Manager")
+    public void getTileManager(){  
+		try {
+			log.info("Starting execution of getTileManager");
+TileManager expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+TileManager actualValue=game.getTileManager();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("init Classes")
+    public void initClasses(){  
+		try {
+			log.info("Starting execution of initClasses");
+  
+  
+ Game game  =new Game(); 
+game.initClasses();
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofinitClasses-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("start")
+    public void start(){  
+		try {
+			log.info("Starting execution of start");
+  
+  
+ Game game  =new Game(); 
+game.start();
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofstart-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("update Game")
+    public void updateGame(){  
+		try {
+			log.info("Starting execution of updateGame");
+  
+  
+ Game game  =new Game(); 
+game.updateGame();
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofupdateGame-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("main")
+    public void main(){  
+		try {
+			log.info("Starting execution of main");
+ String[] args = null; 
+ 
+  
+Game.main( args);
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofmain-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("run")
+    public void run(){  
+		try {
+			log.info("Starting execution of run");
+  
+  
+ Game game  =new Game(); 
+game.run();
+Assertions.assertTrue(true);
+		} catch (Exception exception) {
+			log.error("Exception in execution ofrun-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Render")
+    public void getRender(){  
+		try {
+			log.info("Starting execution of getRender");
+Render expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+Render actualValue=game.getRender();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Menu")
+    public void getMenu(){  
+		try {
+			log.info("Starting execution of getMenu");
+Menu expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+Menu actualValue=game.getMenu();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+ 
+  @Test  
+	@DisplayName("get Playing")
+    public void getPlaying(){  
+		try {
+			log.info("Starting execution of getPlaying");
+Playing expectedValue = null; 
+   
+  
+ Game game  =new Game(); 
+Playing actualValue=game.getPlaying();
+	  log.info("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+	  System.out.println("Expected Value="+ expectedValue +" . Actual Value="+actualValue);
+Assertions.assertEquals(expectedValue, actualValue);
+		} catch (Exception exception) {
+			log.error("Exception in execution of execute1GetAllLogFromFirstMovF-"+exception,exception);
+			exception.printStackTrace();
+			Assertions.assertFalse(false);
+		}
+    }  
+    @AfterEach
+    void tearDown() {
+    }
+    @AfterAll
+    static void tearDownAll() {
+    }
+}
